@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza House</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Pizza House</h1>
+      <img src="pizza.jpg" alt="picture of pizza" height="100" width="100"/>
+      <h1>Sonish Dominos </h1>
+    </header>
+    <main>
+      <form>
+        
+          <legend><b>Order Your Pizza</b></legend>
+<br>
+<div>
+          <label for="number">Number of Pizza:</label>
+          <input type="number" id="number" name="number" min="1"/>
+</div> 
+          <br>
+          <div>
+          <label for="size">Size:</label>
+          <select id="size" name="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="Large">Large</option>
+            <option value="Extra Large">Extra Large</option>
+          </select>
+          </div>
+<br>
+          <div>
+          <label>Shape Your Pizza:</label>
+          <input type="radio" id="round" value="round" name="shape" />
+          <label for="round">Round</label> 
+          <input type="radio" id="square" value="square" name="shape" /> 
+          <label for="square">Square</label> 
+        </div>
+<br>
+          <div class="toppings">
+          <label>Toppings:</label>
+          <label><input type="checkbox" id="Pepperoni" value="Pepperoni" name="topping">Pepperoni</label>
+          <label><input type="checkbox" id="Chicken" value="Chicken" name="topping">Chicken</label>
+          <label><input type="checkbox" id="Pineapple" value="Pineapple" name="topping">Pineapple</label>
+        </div>
+<br>
+<div class="Crust">
+          <label>Crust Option:</label>
+          <select id="crust" name="crust">
+            <option value="Thin-crust">Thin-crust</option>
+            <option value="Thick-crust">Thick-crust</option>
+          </select>
+</div>
+<br>
+<div class="Order type">
+          <label>Order Type:</label>
+          <input type="radio" id="takeout" value="takeout" name="type">
+          <label for="takeout">Take out</label> 
+          <input type="radio" id="delivery" value="delivery" name="type" /> 
+          <label for="delivery">Delivery</label>
+          <input type="radio" id="dine-in" value="dine-in" name="type" /> 
+          <label for="dine-in">Dine-in</label>
+</div>
+<br>
+<div>
+          <label for="email">Email-address</label>
+          <input type="email" id="emailAddress" placeholder="Enter your email" required>
+</div>
+          <br>
+          <label for="password">Password</label>
+          <input type="password" id="password"  placeholder="Enter your Password" required>
+          <br>
+ <div>
+          <input type="submit" value="Confirm order">
+          <input type="reset" value="Reset">
+    <footer>HTML,CSS | 2024 Sonish Dominos | All rights reserved.</footer>
+  </div>
+         </fieldset>
+      </form>
+    </main>
+  </body>
+  </html>
